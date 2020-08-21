@@ -1,6 +1,6 @@
 # GSoC 2020: Enhancements for Wikidata extension
 
-During GSoC 2020, I added two features to the Wikidata extension:
+During GSoC 2020, I added two features to [OpenRefine Wikidata extension](https://github.com/OpenRefine/OpenRefine/tree/master/extensions/wikidata):
 
 1. OAuth support for Wikidata extension.
 2. Extend Wikidata extension to support arbitrary Wikibase instances.
@@ -26,6 +26,8 @@ Users can now choose to login with owner-only consumer. This is helpful for the 
 After clicking on "login with your owner-only consumer", the user can use the consumer credentials to login in the following dialog:
 
 ![](./imgs/login-with-owner-only-consumer1.png)
+
+If the user doesn't have a owner-only consumer, he can learn how to get one according to [Wikidata owner only consumer](https://github.com/OpenRefine/OpenRefine/wiki/Wikidata-owner-only-consumer).
 
 ### TODO
 
@@ -65,3 +67,10 @@ Though coding on this feature did take me a lot of time, I am glad that the UI i
 - Write more manifests for other public Wikibase instances.
 - More thorough tests on this feature.
 
+## Useful links
+
+- [OAuth support (#2661)](https://github.com/OpenRefine/OpenRefine/pull/2661)
+- [Arbitrary Wikibase instances support (#2810)](https://github.com/OpenRefine/OpenRefine/pull/2810)
+- [Wikidata owner only consumer](https://github.com/OpenRefine/OpenRefine/wiki/Wikidata-owner-only-consumer)
+- [Write a Wikibase manifest](https://github.com/OpenRefine/OpenRefine/wiki/Write-a-Wikibase-manifest)
+- [Some public Wikibase manifests](https://github.com/afkbrb/wikibase-manifest)
