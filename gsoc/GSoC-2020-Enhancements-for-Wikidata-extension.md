@@ -32,7 +32,7 @@ If the user doesn't have a owner-only consumer, he can learn how to get one acco
 ### TODO
 
 - Add three-legged OAuth support when OpenRefine introduces a use system and supports multiple users, but that's a long way to go.
-- Tweak the UI of username/password login to recommend users to use [bot passwords](https://www.wikidata.org/wiki/Special:BotPasswords).
+- Tweak the UI of username/password login to recommend users to use [bot passwords](https://www.wikidata.org/wiki/Special:BotPasswords). ([#3108](https://github.com/OpenRefine/OpenRefine/issues/3108))
 
 ## Arbitrary Wikibase instances support
 
@@ -66,6 +66,7 @@ Though coding on this feature did take me a lot of time, I am glad that the UI i
 
 - Write more manifests for other public Wikibase instances.
 - More thorough tests on this feature.
+- Validate Wikibase manifest on the server. ([#3109](https://github.com/OpenRefine/OpenRefine/issues/3109))
 
 ## Useful links
 
@@ -74,3 +75,5 @@ Though coding on this feature did take me a lot of time, I am glad that the UI i
 - [Wikidata owner only consumer](https://github.com/OpenRefine/OpenRefine/wiki/Wikidata-owner-only-consumer)
 - [Write a Wikibase manifest](https://github.com/OpenRefine/OpenRefine/wiki/Write-a-Wikibase-manifest)
 - [Some public Wikibase manifests](https://github.com/afkbrb/wikibase-manifest)
+- [Original proposal](https://docs.google.com/document/d/1qtAgMEEOV_dlHHA3BWARNWa_ExiPL0vgQGVqim8xFTk/edit?usp=sharing)
+
