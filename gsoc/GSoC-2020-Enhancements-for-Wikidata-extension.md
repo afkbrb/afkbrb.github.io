@@ -50,7 +50,7 @@ Users can add Wikibase manifests in the following dialog:
 
 ![](./imgs/add-manifest.png)
 
-As explained in the dialog, we can found manifests for some public Wikibase instances at [wikibase-manifest](https://github.com/afkbrb/wikibase-manifest). If there is no manifest for the Wikibase instance the user wants to work against, then the user can write one according to [Write-a-Wikibase-manifest](https://github.com/OpenRefine/OpenRefine/wiki/Write-a-Wikibase-manifest).
+As explained in the dialog, we can found manifests for some public Wikibase instances at [wikibase-manifest](https://github.com/OpenRefine/wikibase-manifests). If there is no manifest for the Wikibase instance the user wants to work against, then the user can write one according to [Write-a-Wikibase-manifest](https://github.com/OpenRefine/OpenRefine/wiki/Write-a-Wikibase-manifest).
 
 After adding some Wikibase manifests to OpenRefine, the user can select anyone to work against:
 
@@ -74,6 +74,6 @@ Though coding on this feature did take me a lot of time, I am glad that the UI i
 - [Arbitrary Wikibase instances support (#2810)](https://github.com/OpenRefine/OpenRefine/pull/2810)
 - [Wikidata owner only consumer](https://github.com/OpenRefine/OpenRefine/wiki/Wikidata-owner-only-consumer)
 - [Write a Wikibase manifest](https://github.com/OpenRefine/OpenRefine/wiki/Write-a-Wikibase-manifest)
-- [Some public Wikibase manifests](https://github.com/afkbrb/wikibase-manifest)
+- [Some public Wikibase manifests](https://github.com/OpenRefine/wikibase-manifests)
 - [Original proposal](https://docs.google.com/document/d/1qtAgMEEOV_dlHHA3BWARNWa_ExiPL0vgQGVqim8xFTk/edit?usp=sharing)
 
